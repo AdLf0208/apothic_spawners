@@ -1,0 +1,9 @@
+# Port-owned content mod for the Apothic Spawners block and its assets.
+# Upstream Apothic Spawners is MIT (Shadows-of-Fire/Apothic-Spawners); the
+# block model is vanilla 26.3's own spawner model, referenced, not copied.
+id = "apothic_spawners"
+name = "Apothic Spawners"
+version = "2.0.1"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

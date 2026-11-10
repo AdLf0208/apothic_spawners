@@ -1,0 +1,14 @@
+[package]
+name = "horizon-apothic-spawners"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Apothic Spawners for Horizon: a configurable spawner block"
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/apothic_spawners/runtime.rs"
+
+[workspace]
+resolver = "2"
